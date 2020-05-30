@@ -1,0 +1,144 @@
+@media only screen and (max-width: 1200px) {
+    .row {
+        margin: 0 15px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    header {
+        height: 65vh;
+    }
+
+    .row {
+        margin: 0 15px;
+    }
+
+    .main-nav {
+        display: none;
+    }
+
+    html {
+        font-size: 55.5%;
+    }
+
+    .mobile-menu span {
+        display: block;
+    }
+
+    .hero-text-box {
+        width: 98%;
+    }
+
+    .clint-photo {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+
+    .client-review {
+        width: 95%;
+        float: none;
+        text-align: center;
+    }
+
+    .contact-section form {
+
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 980px) {
+    .span_1_of_4 {
+        width: 48.2%;
+    }
+
+    .span_1_of_4:nth-child(3) {
+        margin-left: 0;
+    }
+
+    html {
+        font-size: 62.5%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .footer-section li {
+
+        margin: 0 1rem;
+    }
+
+    .little-description {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    h2 {
+        font-size: 3rem;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    h1 {
+        margin-top: -4rem;
+    }
+
+    h3 {
+        font-size: 2rem;
+    }
+
+    .span_1_of_4 {
+        width: 100%;
+    }
+
+
+    .portfolio-filter {
+        margin: 3.5rem 0;
+    }
+
+    .portfolio-filter a {
+        font-size: 1.6rem;
+        padding: .5rem 1rem;
+    }
+
+    .testimonial .col:nth-child(3),
+    .testimonial .col:nth-child(4) {
+        margin-top: 4rem;
+    }
+
+    .footer-section li {
+
+        margin: 0 .5rem;
+    }
+
+    .footer-section li a {
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    h2 {
+        font-size: 2rem;
+    }
+
+    .btn-submit {
+        padding: 1.5rem 2rem;
+    }
+
+    .portfolio-filter a {
+        background: #FFE0A3;
+        font-size: 1rem;
+        padding: .2rem .6rem;
+
+    }
+
+    .social-icon ul li a i::before {
+        padding: .6rem;
+        font-size: 1.6rem;
+    }
+
+    .footer-section li {
+
+        margin: 0 2.5rem;
+    }
+}
